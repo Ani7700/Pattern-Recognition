@@ -32,6 +32,10 @@ MANIFEST
 *.manifest
 *.spec
 
+/Qi Ninghan/Qi Ninghan.docx
+/Qi Ninghan/Qi Ninghan.pdf
+
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
