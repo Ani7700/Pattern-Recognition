@@ -11,20 +11,25 @@ CNN: Convolutional Neural Network for image classification, with examples of tra
 data: Contains 25 categories of data selected for the task.
 selfie: Contains 10 selfies for additional testing and analysis.
 
-### How to run the codes
+### Install Environments
 
-To ensure the environments are properly installed, first run the following code in conda virtual environment:
+First, create and activate a conda virtual environment to manage dependencies:
 
 ```bash
-conda create -n ml_env python=3.11
+conda create -n ml_env python=3.9
 conda activate ml_env
-pip install cv2
-pip install sklearn
+```
+
+Then install the required packages:
+
+```bash
+pip install opencv-python
+pip install scikit-learn
 pip install matplotlib
 pip install tensorflow
 ```
 
-Each code is written in Python with Jupyter Notebook and to run the codes just click on the execute button on each code block.
+#### How to run the codes
 
 1.Open the Jupyter Notebook:
 Each algorithm (PCA, LDA, GMM, CNN) is implemented as a standalone Python notebook.
